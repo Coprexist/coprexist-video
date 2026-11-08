@@ -1,0 +1,17 @@
+{
+  "name": "coprexist-video",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Copree 宣传片/科普片生产管线：页面逐帧渲染 + 镜头表合成",
+  "scripts": {
+    "render": "node render/render.mjs",
+    "compose": "node compose/compose.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.65.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

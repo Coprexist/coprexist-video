@@ -1,0 +1,9 @@
+node_modules/
+out/
+*.frames/
+*.mov
+*.mp4
+*.gif
+*.png
+!docs/**/*.png
+.DS_Store
